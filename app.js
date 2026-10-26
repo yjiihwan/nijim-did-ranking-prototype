@@ -264,12 +264,14 @@
   const standby = () => { const [lg, lw] = logo(W / 2 - 160, H / 2 - 23, 46); void lw; return svgWrap(lg); };
 
   // ───────── 데이터 ─────────
-  // «센터 화면에 안 보이기»(hide_on_did) 회원은 화면에 그리기 전에 항상 뺀다. 2단계에선 서버에서도 빼서 내려준다.
-  const visible = (list) => (Array.isArray(list) ? list : []).filter((m) => m && m.hide_on_did !== true && m.nickname);
-  const rank10 = (list) => visible(list).slice().sort((a, b) => (b.weekly_xp || 0) - (a.weekly_xp || 0)).slice(0, 10);
+  // 결정 40: 순위·숨김은 center_rank.js(CenterRank) — 앱 «내 센터»·«전국» 탭과 같은 함수.
+  // 센터 순위 = 그 센터 입장(V1) 세션으로 번 주간 경험치만 · «센터 랭킹에 안 보이기»(hide_in_center_ranking) 회원은 모든 화면에서 뺀다.
+  const { visible, centerBoard, rankRows } = window.CenterRank;
+  const top10 = (rows) => rows.slice(0, 10);
 
   let data = null;
   try { data = JSON.parse(localStorage.getItem(CACHE_KEY) || 'null'); } catch (_) { data = null; }
+  if (data && !data.week) data = null;   // 결정 40 이전 캐시(센터별 weekly) — 새 데이터로 다시 받음
 
   const getJson = async (url) => {
     const ac = new AbortController();
@@ -286,8 +288,9 @@
     try {
       const center = await getJson(`data/centers/${centerId}.json`);
       const national = await getJson(center.national_url || 'data/national.json');
-      if (!center || !Array.isArray(center.weekly) || !national || !Array.isArray(national.weekly)) return;
-      data = { center, national, fetchedAt: Date.now() };
+      const week = await getJson(center.week_url || 'data/center_week.json');
+      if (!center || !national || !Array.isArray(national.weekly) || !week || !Array.isArray(week.sessions) || !Array.isArray(week.members)) return;
+      data = { center, national, week, fetchedAt: Date.now() };
       try { localStorage.setItem(CACHE_KEY, JSON.stringify(data)); } catch (_) { /* 저장 못 해도 화면엔 영향 없음 */ }
       preload();
     } catch (_) { /* 끊김·실패: 직전 데이터 그대로 유지, 에러 화면 없음 */ }
@@ -303,8 +306,8 @@
   const build = (page) => {
     if (!data) return standby();
     const c = data.center;
-    if (page === 0) return ranking(rank10(c.weekly), false, `${c.center_name} · 이번 주 랭킹`, '매주 월요일 0시 초기화', '니짐내짐 앱에 운동을 기록하면 주간 XP가 쌓여요 · 닉네임만 표시', 0);
-    if (page === 1) return ranking(rank10(data.national.weekly), true, '니짐내짐 전국 · 이번 주 랭킹', '매주 월요일 0시 초기화', '전국 니짐내짐 회원 기준 · 닉네임만 표시', 1);
+    if (page === 0) return ranking(top10(centerBoard(data.week.sessions, data.week.members, c.center_id, data.week.week_start)), false, `${c.center_name} · 이번 주 랭킹`, '매주 월요일 0시 초기화', '이 센터 입장으로 쌓은 주간 XP 기준 · 닉네임만 표시', 0);
+    if (page === 1) return ranking(top10(rankRows(data.national.weekly)), true, '니짐내짐 전국 · 이번 주 랭킹', '매주 월요일 0시 초기화', '전국 니짐내짐 회원 기준 · 닉네임만 표시', 1);
     const t = c.today || {};
     const ms = visible(t.members);
     return today(ms, Math.max(Number(t.total) || 0, ms.length), c.qr && c.qr.matrix, 2);

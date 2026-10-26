@@ -35,96 +35,6 @@
    "11111110100010110011110010010"
   ]
  },
- "weekly": [
-  {
-   "member_id": "bodH01",
-   "nickname": "숨김설정회원",
-   "character_type_id": "23_imu",
-   "level": 70,
-   "hide_on_did": true,
-   "weekly_xp": 1775
-  },
-  {
-   "member_id": "bod000",
-   "nickname": "새벽러너",
-   "character_type_id": "22_saetbyeol",
-   "level": 41,
-   "hide_on_did": false,
-   "weekly_xp": 1745
-  },
-  {
-   "member_id": "bod001",
-   "nickname": "벤치왕",
-   "character_type_id": "20_ttukbi",
-   "level": 33,
-   "hide_on_did": false,
-   "weekly_xp": 1690
-  },
-  {
-   "member_id": "bod002",
-   "nickname": "운동하는곰",
-   "character_type_id": "24_koa",
-   "level": 27,
-   "hide_on_did": false,
-   "weekly_xp": 1620
-  },
-  {
-   "member_id": "bod003",
-   "nickname": "필라테스러",
-   "character_type_id": "02_mungchi",
-   "level": 18,
-   "hide_on_did": false,
-   "weekly_xp": 1540
-  },
-  {
-   "member_id": "bod004",
-   "nickname": "헬린이9일차",
-   "character_type_id": "27_bamtol",
-   "level": 4,
-   "hide_on_did": false,
-   "weekly_xp": 1460
-  },
-  {
-   "member_id": "bod005",
-   "nickname": "스쿼트요정",
-   "character_type_id": "25_ppiyak",
-   "level": 22,
-   "hide_on_did": false,
-   "weekly_xp": 1385
-  },
-  {
-   "member_id": "bod006",
-   "nickname": "퇴근후하체",
-   "character_type_id": "18_rilla",
-   "level": 15,
-   "hide_on_did": false,
-   "weekly_xp": 1240
-  },
-  {
-   "member_id": "bod007",
-   "nickname": "오운완직장인",
-   "character_type_id": "26_capy",
-   "level": 9,
-   "hide_on_did": false,
-   "weekly_xp": 1105
-  },
-  {
-   "member_id": "bod008",
-   "nickname": "런닝맨",
-   "character_type_id": "21_youngcha",
-   "level": 52,
-   "hide_on_did": false,
-   "weekly_xp": 980
-  },
-  {
-   "member_id": "bod009",
-   "nickname": "삼대오백목표",
-   "character_type_id": "19_shadow",
-   "level": 63,
-   "hide_on_did": false,
-   "weekly_xp": 860
-  }
- ],
  "today": {
   "total": 24,
   "members": [
@@ -133,87 +43,88 @@
     "nickname": "숨김설정회원",
     "character_type_id": "23_imu",
     "level": 70,
-    "hide_on_did": true
+    "hide_in_center_ranking": true
    },
    {
     "member_id": "bod000",
     "nickname": "새벽러너",
     "character_type_id": "22_saetbyeol",
     "level": 41,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod001",
     "nickname": "벤치왕",
     "character_type_id": "20_ttukbi",
     "level": 33,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod002",
     "nickname": "운동하는곰",
     "character_type_id": "24_koa",
     "level": 27,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod003",
     "nickname": "필라테스러",
     "character_type_id": "02_mungchi",
     "level": 18,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod004",
     "nickname": "헬린이9일차",
     "character_type_id": "27_bamtol",
     "level": 4,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod005",
     "nickname": "스쿼트요정",
     "character_type_id": "25_ppiyak",
     "level": 22,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod006",
     "nickname": "퇴근후하체",
     "character_type_id": "18_rilla",
     "level": 15,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod007",
     "nickname": "오운완직장인",
     "character_type_id": "26_capy",
     "level": 9,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod008",
     "nickname": "런닝맨",
     "character_type_id": "21_youngcha",
     "level": 52,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod009",
     "nickname": "삼대오백목표",
     "character_type_id": "19_shadow",
     "level": 63,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
     "member_id": "bod010",
     "nickname": "요가하는밤",
     "character_type_id": "16_dot",
     "level": 24,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    }
   ]
  },
  "generated_at": "FAKE-DATA",
- "national_url": "data/national.json"
+ "national_url": "data/national.json",
+ "week_url": "data/center_week.json"
 }

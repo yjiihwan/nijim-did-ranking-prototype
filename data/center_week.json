@@ -1,0 +1,604 @@
+{
+ "week_start": null,
+ "generated_at": "FAKE-DATA",
+ "note": "세션 행 = 그 세션이 주간 경험치(xp_week)에 실제로 들어간 몫(xp_league). 센터 순위는 V1 만, 전국은 V1+V3. 실서비스는 서버가 이번 주·이 센터 행만 내려줌",
+ "members": [
+  {
+   "member_id": "bod000",
+   "nickname": "새벽러너",
+   "character_type_id": "22_saetbyeol",
+   "level": 41,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod001",
+   "nickname": "벤치왕",
+   "character_type_id": "20_ttukbi",
+   "level": 33,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod002",
+   "nickname": "운동하는곰",
+   "character_type_id": "24_koa",
+   "level": 27,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod003",
+   "nickname": "필라테스러",
+   "character_type_id": "02_mungchi",
+   "level": 18,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod004",
+   "nickname": "헬린이9일차",
+   "character_type_id": "27_bamtol",
+   "level": 4,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod005",
+   "nickname": "스쿼트요정",
+   "character_type_id": "25_ppiyak",
+   "level": 22,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod006",
+   "nickname": "퇴근후하체",
+   "character_type_id": "18_rilla",
+   "level": 15,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod007",
+   "nickname": "오운완직장인",
+   "character_type_id": "26_capy",
+   "level": 9,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod008",
+   "nickname": "런닝맨",
+   "character_type_id": "21_youngcha",
+   "level": 52,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod009",
+   "nickname": "삼대오백목표",
+   "character_type_id": "19_shadow",
+   "level": 63,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bodH01",
+   "nickname": "숨김설정회원",
+   "character_type_id": "23_imu",
+   "level": 70,
+   "hide_in_center_ranking": true
+  },
+  {
+   "member_id": "bup000",
+   "nickname": "스미스머신",
+   "character_type_id": "19_shadow",
+   "level": 61,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bup001",
+   "nickname": "부평불개미",
+   "character_type_id": "20_ttukbi",
+   "level": 28,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bup002",
+   "nickname": "천천히꾸준히",
+   "character_type_id": "02_mungchi",
+   "level": 11,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif000",
+   "nickname": "새벽다섯시스쿼트하는직장인",
+   "character_type_id": "22_saetbyeol",
+   "level": 41,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif001",
+   "nickname": "데드리프트백키로가즈아",
+   "character_type_id": "20_ttukbi",
+   "level": 33,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif002",
+   "nickname": "오늘도하체하는필라테스",
+   "character_type_id": "24_koa",
+   "level": 27,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif003",
+   "nickname": "퇴근하고바로헬스장가요",
+   "character_type_id": "02_mungchi",
+   "level": 18,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif004",
+   "nickname": "주말에도쉬지않는런너",
+   "character_type_id": "27_bamtol",
+   "level": 4,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif005",
+   "nickname": "근손실이무서운헬린이",
+   "character_type_id": "25_ppiyak",
+   "level": 22,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif006",
+   "nickname": "벤치프레스백키로도전",
+   "character_type_id": "18_rilla",
+   "level": 15,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif007",
+   "nickname": "아침공복유산소매일해요",
+   "character_type_id": "26_capy",
+   "level": 9,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif008",
+   "nickname": "스쿼트백개챌린지하는중",
+   "character_type_id": "21_youngcha",
+   "level": 52,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lif009",
+   "nickname": "계단으로만다니는사람",
+   "character_type_id": "19_shadow",
+   "level": 63,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lifH01",
+   "nickname": "숨김설정회원",
+   "character_type_id": "23_imu",
+   "level": 70,
+   "hide_in_center_ranking": true
+  },
+  {
+   "member_id": "lon000",
+   "nickname": "새벽다섯시에일어나서스쿼트하는직장인",
+   "character_type_id": "22_saetbyeol",
+   "level": 41,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon001",
+   "nickname": "데드리프트 백키로 가즈아 오늘도",
+   "character_type_id": "20_ttukbi",
+   "level": 33,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon002",
+   "nickname": "오늘도하체하는필라테스러버",
+   "character_type_id": "24_koa",
+   "level": 27,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon003",
+   "nickname": "퇴근하고바로헬스장가는직장인입니다",
+   "character_type_id": "02_mungchi",
+   "level": 18,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon004",
+   "nickname": "주말에도쉬지않는런너",
+   "character_type_id": "27_bamtol",
+   "level": 4,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon005",
+   "nickname": "근손실이무서운헬린이",
+   "character_type_id": "25_ppiyak",
+   "level": 22,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon006",
+   "nickname": "벤치프레스백키로도전",
+   "character_type_id": "18_rilla",
+   "level": 15,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon007",
+   "nickname": "아침공복유산소매일해요",
+   "character_type_id": "26_capy",
+   "level": 9,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon008",
+   "nickname": "스쿼트백개챌린지하는중",
+   "character_type_id": "21_youngcha",
+   "level": 52,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lon009",
+   "nickname": "계단으로만다니는사람",
+   "character_type_id": "19_shadow",
+   "level": 63,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "lonH01",
+   "nickname": "숨김설정회원",
+   "character_type_id": "23_imu",
+   "level": 70,
+   "hide_in_center_ranking": true
+  },
+  {
+   "member_id": "seo000",
+   "nickname": "성수불주먹",
+   "character_type_id": "18_rilla",
+   "level": 45,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "seo001",
+   "nickname": "아침형인간",
+   "character_type_id": "16_dot",
+   "level": 74,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "seo002",
+   "nickname": "런지마스터",
+   "character_type_id": "25_ppiyak",
+   "level": 21,
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "seo003",
+   "nickname": "코어단단",
+   "character_type_id": "26_capy",
+   "level": 30,
+   "hide_in_center_ranking": false
+  }
+ ],
+ "sessions": [
+  {
+   "member_id": "bodH01",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1000
+  },
+  {
+   "member_id": "bodH01",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 775
+  },
+  {
+   "member_id": "bod000",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 900
+  },
+  {
+   "member_id": "bod000",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 520
+  },
+  {
+   "member_id": "bod000",
+   "center_id": "gymstory-bupyeong",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 325
+  },
+  {
+   "member_id": "bod001",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1690
+  },
+  {
+   "member_id": "bod002",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1000
+  },
+  {
+   "member_id": "bod002",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 620
+  },
+  {
+   "member_id": "bod003",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1540
+  },
+  {
+   "member_id": "bod004",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1460
+  },
+  {
+   "member_id": "bod005",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1385
+  },
+  {
+   "member_id": "bod006",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1240
+  },
+  {
+   "member_id": "bod007",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1105
+  },
+  {
+   "member_id": "bod008",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 980
+  },
+  {
+   "member_id": "bod009",
+   "center_id": "bodyworks-gangnam",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 860
+  },
+  {
+   "member_id": "lifH01",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 988480
+  },
+  {
+   "member_id": "lif000",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 988450
+  },
+  {
+   "member_id": "lif001",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 919870
+  },
+  {
+   "member_id": "lif002",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 908300
+  },
+  {
+   "member_id": "lif003",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 874990
+  },
+  {
+   "member_id": "lif004",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 863760
+  },
+  {
+   "member_id": "lif005",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 852654
+  },
+  {
+   "member_id": "lif006",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 841543
+  },
+  {
+   "member_id": "lif007",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 830432
+  },
+  {
+   "member_id": "lif008",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 820321
+  },
+  {
+   "member_id": "lif009",
+   "center_id": "liftlab-centum",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 810210
+  },
+  {
+   "member_id": "lonH01",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 988480
+  },
+  {
+   "member_id": "lon000",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 988450
+  },
+  {
+   "member_id": "lon001",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 919870
+  },
+  {
+   "member_id": "lon002",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 908300
+  },
+  {
+   "member_id": "lon003",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 874990
+  },
+  {
+   "member_id": "lon004",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 863760
+  },
+  {
+   "member_id": "lon005",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 852654
+  },
+  {
+   "member_id": "lon006",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 841543
+  },
+  {
+   "member_id": "lon007",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 830432
+  },
+  {
+   "member_id": "lon008",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 820321
+  },
+  {
+   "member_id": "lon009",
+   "center_id": "test-longname",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 810210
+  },
+  {
+   "member_id": "seo000",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1430
+  },
+  {
+   "member_id": "seo001",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1210
+  },
+  {
+   "member_id": "seo002",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 880
+  },
+  {
+   "member_id": "seo003",
+   "center_id": "fitnco-seongsu",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 640
+  },
+  {
+   "member_id": "bup000",
+   "center_id": "gymstory-bupyeong",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 1380
+  },
+  {
+   "member_id": "bup001",
+   "center_id": "gymstory-bupyeong",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 990
+  },
+  {
+   "member_id": "bup002",
+   "center_id": "gymstory-bupyeong",
+   "date": null,
+   "verify": "V1",
+   "xp_league": 410
+  },
+  {
+   "member_id": "bod002",
+   "center_id": null,
+   "date": null,
+   "verify": "V3",
+   "xp_league": 0
+  }
+ ]
+}

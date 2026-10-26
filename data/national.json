@@ -5,62 +5,62 @@
    "nickname": "데드장인",
    "character_type_id": "23_imu",
    "level": 88,
-   "hide_on_did": false,
    "weekly_xp": 1800,
-   "center_name": "바디웍스 강남점"
-  },
-  {
-   "member_id": "natn001",
-   "nickname": "아침형인간",
-   "character_type_id": "16_dot",
-   "level": 74,
-   "hide_on_did": false,
-   "weekly_xp": 1795,
-   "center_name": "핏앤코 성수점"
+   "center_name": "바디웍스 강남점",
+   "hide_in_center_ranking": false
   },
   {
    "member_id": "natH01",
    "nickname": "전국숨김회원",
    "character_type_id": "16_dot",
    "level": 50,
-   "hide_on_did": true,
    "weekly_xp": 1794,
-   "center_name": "핏앤코 성수점"
+   "center_name": "핏앤코 성수점",
+   "hide_in_center_ranking": true
   },
   {
-   "member_id": "natn002",
-   "nickname": "스미스머신",
-   "character_type_id": "21_youngcha",
-   "level": 66,
-   "hide_on_did": false,
-   "weekly_xp": 1780,
-   "center_name": "짐스토리 부평점"
+   "member_id": "bodH01",
+   "nickname": "숨김설정회원",
+   "character_type_id": "23_imu",
+   "level": 70,
+   "hide_in_center_ranking": true,
+   "weekly_xp": 1775,
+   "center_name": "바디웍스 강남점"
   },
   {
    "member_id": "natn003",
    "nickname": "근육곰돌이",
    "character_type_id": "24_koa",
    "level": 59,
-   "hide_on_did": false,
    "weekly_xp": 1772,
-   "center_name": "리프트랩 해운대점"
+   "center_name": "리프트랩 해운대점",
+   "hide_in_center_ranking": false
   },
   {
    "member_id": "natn004",
    "nickname": "하루한시간",
    "character_type_id": "26_capy",
    "level": 47,
-   "hide_on_did": false,
    "weekly_xp": 1760,
-   "center_name": "무브짐 대전둔산점"
+   "center_name": "무브짐 대전둔산점",
+   "hide_in_center_ranking": false
   },
   {
    "member_id": "natn005",
    "nickname": "계단오르기",
    "character_type_id": "22_saetbyeol",
    "level": 45,
-   "hide_on_did": false,
    "weekly_xp": 1748,
+   "center_name": "바디웍스 강남점",
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod000",
+   "nickname": "새벽러너",
+   "character_type_id": "22_saetbyeol",
+   "level": 41,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1745,
    "center_name": "바디웍스 강남점"
   },
   {
@@ -68,36 +68,180 @@
    "nickname": "주3회약속",
    "character_type_id": "25_ppiyak",
    "level": 38,
-   "hide_on_did": false,
    "weekly_xp": 1731,
-   "center_name": "온핏 수원영통점"
+   "center_name": "온핏 수원영통점",
+   "hide_in_center_ranking": false
   },
   {
    "member_id": "natn007",
    "nickname": "풀업연습중",
    "character_type_id": "20_ttukbi",
    "level": 31,
-   "hide_on_did": false,
    "weekly_xp": 1720,
-   "center_name": "짐스토리 일산점"
+   "center_name": "짐스토리 일산점",
+   "hide_in_center_ranking": false
   },
   {
    "member_id": "natn008",
    "nickname": "바벨친구",
    "character_type_id": "27_bamtol",
    "level": 29,
-   "hide_on_did": false,
    "weekly_xp": 1702,
-   "center_name": "코어랩 광주상무점"
+   "center_name": "코어랩 광주상무점",
+   "hide_in_center_ranking": false
   },
   {
    "member_id": "natn009",
    "nickname": "요가하는밤",
    "character_type_id": "18_rilla",
    "level": 24,
-   "hide_on_did": false,
    "weekly_xp": 1690,
-   "center_name": "핏앤코 마포점"
+   "center_name": "핏앤코 마포점",
+   "hide_in_center_ranking": false
+  },
+  {
+   "member_id": "bod001",
+   "nickname": "벤치왕",
+   "character_type_id": "20_ttukbi",
+   "level": 33,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1690,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "bod002",
+   "nickname": "운동하는곰",
+   "character_type_id": "24_koa",
+   "level": 27,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1620,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "bod003",
+   "nickname": "필라테스러",
+   "character_type_id": "02_mungchi",
+   "level": 18,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1540,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "bod004",
+   "nickname": "헬린이9일차",
+   "character_type_id": "27_bamtol",
+   "level": 4,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1460,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "seo000",
+   "nickname": "성수불주먹",
+   "character_type_id": "18_rilla",
+   "level": 45,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1430,
+   "center_name": "핏앤코 성수점"
+  },
+  {
+   "member_id": "bod005",
+   "nickname": "스쿼트요정",
+   "character_type_id": "25_ppiyak",
+   "level": 22,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1385,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "bup000",
+   "nickname": "스미스머신",
+   "character_type_id": "19_shadow",
+   "level": 61,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1380,
+   "center_name": "짐스토리 부평점"
+  },
+  {
+   "member_id": "bod006",
+   "nickname": "퇴근후하체",
+   "character_type_id": "18_rilla",
+   "level": 15,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1240,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "seo001",
+   "nickname": "아침형인간",
+   "character_type_id": "16_dot",
+   "level": 74,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1210,
+   "center_name": "핏앤코 성수점"
+  },
+  {
+   "member_id": "bod007",
+   "nickname": "오운완직장인",
+   "character_type_id": "26_capy",
+   "level": 9,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 1105,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "bup001",
+   "nickname": "부평불개미",
+   "character_type_id": "20_ttukbi",
+   "level": 28,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 990,
+   "center_name": "짐스토리 부평점"
+  },
+  {
+   "member_id": "bod008",
+   "nickname": "런닝맨",
+   "character_type_id": "21_youngcha",
+   "level": 52,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 980,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "seo002",
+   "nickname": "런지마스터",
+   "character_type_id": "25_ppiyak",
+   "level": 21,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 880,
+   "center_name": "핏앤코 성수점"
+  },
+  {
+   "member_id": "bod009",
+   "nickname": "삼대오백목표",
+   "character_type_id": "19_shadow",
+   "level": 63,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 860,
+   "center_name": "바디웍스 강남점"
+  },
+  {
+   "member_id": "seo003",
+   "nickname": "코어단단",
+   "character_type_id": "26_capy",
+   "level": 30,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 640,
+   "center_name": "핏앤코 성수점"
+  },
+  {
+   "member_id": "bup002",
+   "nickname": "천천히꾸준히",
+   "character_type_id": "02_mungchi",
+   "level": 11,
+   "hide_in_center_ranking": false,
+   "weekly_xp": 410,
+   "center_name": "짐스토리 부평점"
   }
  ],
  "generated_at": "FAKE-DATA"

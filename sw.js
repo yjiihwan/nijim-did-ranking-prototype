@@ -1,7 +1,7 @@
 // 오프라인(인터넷 끊김·재부팅 직후)에도 마지막 화면을 띄우기 위한 캐시
-const SHELL = 'did-shell-v2';
-const STATIC = 'did-static-v2';
-const SHELL_FILES = ['index.html', 'app.js', 'style.css', 'assets/manifest.js'];
+const SHELL = 'did-shell-v3';
+const STATIC = 'did-static-v3';
+const SHELL_FILES = ['index.html', 'center_rank.js', 'app.js', 'style.css', 'assets/manifest.js'];
 // 글꼴을 미리 받아 두지 않으면 오프라인 재시작 때 글자 폭을 기본 글꼴로 재서 배치가 틀어짐
 const FONT_FILES = ['Medium', 'SemiBold', 'Bold', 'ExtraBold'].map((w) => `assets/fonts/Pretendard-${w}.woff2`);
 

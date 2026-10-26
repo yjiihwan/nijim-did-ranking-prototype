@@ -35,185 +35,96 @@
    "11111110100010110011110010010"
   ]
  },
- "weekly": [
-  {
-   "member_id": "lifH01",
-   "nickname": "숨김설정회원",
-   "character_type_id": "23_imu",
-   "level": 70,
-   "hide_on_did": true,
-   "weekly_xp": 988480
-  },
-  {
-   "member_id": "lif000",
-   "nickname": "새벽다섯시에일어나서스쿼트하는직장인",
-   "character_type_id": "22_saetbyeol",
-   "level": 41,
-   "hide_on_did": false,
-   "weekly_xp": 988450
-  },
-  {
-   "member_id": "lif001",
-   "nickname": "데드리프트 백키로 가즈아 오늘도",
-   "character_type_id": "20_ttukbi",
-   "level": 33,
-   "hide_on_did": false,
-   "weekly_xp": 919870
-  },
-  {
-   "member_id": "lif002",
-   "nickname": "오늘도하체하는필라테스러버",
-   "character_type_id": "24_koa",
-   "level": 27,
-   "hide_on_did": false,
-   "weekly_xp": 908300
-  },
-  {
-   "member_id": "lif003",
-   "nickname": "퇴근하고바로헬스장가는직장인입니다",
-   "character_type_id": "02_mungchi",
-   "level": 18,
-   "hide_on_did": false,
-   "weekly_xp": 874990
-  },
-  {
-   "member_id": "lif004",
-   "nickname": "주말에도쉬지않는런너",
-   "character_type_id": "27_bamtol",
-   "level": 4,
-   "hide_on_did": false,
-   "weekly_xp": 863760
-  },
-  {
-   "member_id": "lif005",
-   "nickname": "근손실이무서운헬린이",
-   "character_type_id": "25_ppiyak",
-   "level": 22,
-   "hide_on_did": false,
-   "weekly_xp": 852654
-  },
-  {
-   "member_id": "lif006",
-   "nickname": "벤치프레스백키로도전",
-   "character_type_id": "18_rilla",
-   "level": 15,
-   "hide_on_did": false,
-   "weekly_xp": 841543
-  },
-  {
-   "member_id": "lif007",
-   "nickname": "아침공복유산소매일해요",
-   "character_type_id": "26_capy",
-   "level": 9,
-   "hide_on_did": false,
-   "weekly_xp": 830432
-  },
-  {
-   "member_id": "lif008",
-   "nickname": "스쿼트백개챌린지하는중",
-   "character_type_id": "21_youngcha",
-   "level": 52,
-   "hide_on_did": false,
-   "weekly_xp": 820321
-  },
-  {
-   "member_id": "lif009",
-   "nickname": "계단으로만다니는사람",
-   "character_type_id": "19_shadow",
-   "level": 63,
-   "hide_on_did": false,
-   "weekly_xp": 810210
-  }
- ],
  "today": {
   "total": 1284,
   "members": [
    {
-    "member_id": "lifH01",
+    "member_id": "lonH01",
     "nickname": "숨김설정회원",
     "character_type_id": "23_imu",
     "level": 70,
-    "hide_on_did": true
+    "hide_in_center_ranking": true
    },
    {
-    "member_id": "lif000",
+    "member_id": "lon000",
     "nickname": "새벽다섯시에일어나서스쿼트하는직장인",
     "character_type_id": "22_saetbyeol",
     "level": 41,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif001",
+    "member_id": "lon001",
     "nickname": "데드리프트백키로가즈아",
     "character_type_id": "20_ttukbi",
     "level": 33,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif002",
+    "member_id": "lon002",
     "nickname": "오늘도하체하는필라테스",
     "character_type_id": "24_koa",
     "level": 27,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif003",
+    "member_id": "lon003",
     "nickname": "퇴근하고바로헬스장가요",
     "character_type_id": "02_mungchi",
     "level": 18,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif004",
+    "member_id": "lon004",
     "nickname": "주말에도쉬지않는런너",
     "character_type_id": "27_bamtol",
     "level": 4,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif005",
+    "member_id": "lon005",
     "nickname": "근손실이무서운헬린이",
     "character_type_id": "25_ppiyak",
     "level": 22,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif006",
+    "member_id": "lon006",
     "nickname": "벤치프레스백키로도전",
     "character_type_id": "18_rilla",
     "level": 15,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif007",
+    "member_id": "lon007",
     "nickname": "아침공복유산소매일해요",
     "character_type_id": "26_capy",
     "level": 9,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif008",
+    "member_id": "lon008",
     "nickname": "스쿼트백개챌린지하는중",
     "character_type_id": "21_youngcha",
     "level": 52,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif009",
+    "member_id": "lon009",
     "nickname": "계단으로만다니는사람",
     "character_type_id": "19_shadow",
     "level": 63,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    },
    {
-    "member_id": "lif010",
+    "member_id": "lon010",
     "nickname": "한글열두자닉네임테스트중",
     "character_type_id": "16_dot",
     "level": 24,
-    "hide_on_did": false
+    "hide_in_center_ranking": false
    }
   ]
  },
  "generated_at": "FAKE-DATA (잘림 한계 시험용)",
- "national_url": "data/national_stress.json"
+ "national_url": "data/national_stress.json",
+ "week_url": "data/center_week.json"
 }
