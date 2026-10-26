@@ -1,0 +1,219 @@
+{
+ "center_id": "liftlab-centum",
+ "center_name": "리프트랩 부산해운대센텀시티점",
+ "qr": {
+  "url": "https://ngym.onelink.me/U3B5/k4fu3ziz",
+  "matrix": [
+   "11111110101001101011101111111",
+   "10000010111001101110001000001",
+   "10111010010111001011101011101",
+   "10111010110100000111001011101",
+   "10111010000011111001001011101",
+   "10000010001100101111001000001",
+   "11111110101010101010101111111",
+   "00000000111111110111000000000",
+   "10110111001011110010001001011",
+   "11111000001110001001011010001",
+   "11000111001010101110011000110",
+   "10001001011011111010000110001",
+   "00101111110010011111000001100",
+   "00110101011101010111001000111",
+   "11100011010110100101010100111",
+   "00111001000111011001101000010",
+   "10111011011010001111110011010",
+   "00010100000001010000100101110",
+   "10011010111010010110101100100",
+   "00101001110110011100101000100",
+   "01100111111001001100111111100",
+   "00000000101011101000100011111",
+   "11111110110011000111101011010",
+   "10000010110000000010100011011",
+   "10111010010000111110111110100",
+   "10111010110101110000110111001",
+   "10111010101111100110100100101",
+   "10000010010010100000100001010",
+   "11111110100010110011110010010"
+  ]
+ },
+ "weekly": [
+  {
+   "member_id": "lifH01",
+   "nickname": "숨김설정회원",
+   "character_type_id": "23_imu",
+   "level": 70,
+   "hide_on_did": true,
+   "weekly_xp": 988480
+  },
+  {
+   "member_id": "lif000",
+   "nickname": "새벽다섯시스쿼트하는직장인",
+   "character_type_id": "22_saetbyeol",
+   "level": 41,
+   "hide_on_did": false,
+   "weekly_xp": 988450
+  },
+  {
+   "member_id": "lif001",
+   "nickname": "데드리프트백키로가즈아",
+   "character_type_id": "20_ttukbi",
+   "level": 33,
+   "hide_on_did": false,
+   "weekly_xp": 919870
+  },
+  {
+   "member_id": "lif002",
+   "nickname": "오늘도하체하는필라테스",
+   "character_type_id": "24_koa",
+   "level": 27,
+   "hide_on_did": false,
+   "weekly_xp": 908300
+  },
+  {
+   "member_id": "lif003",
+   "nickname": "퇴근하고바로헬스장가요",
+   "character_type_id": "02_mungchi",
+   "level": 18,
+   "hide_on_did": false,
+   "weekly_xp": 874990
+  },
+  {
+   "member_id": "lif004",
+   "nickname": "주말에도쉬지않는런너",
+   "character_type_id": "27_bamtol",
+   "level": 4,
+   "hide_on_did": false,
+   "weekly_xp": 863760
+  },
+  {
+   "member_id": "lif005",
+   "nickname": "근손실이무서운헬린이",
+   "character_type_id": "25_ppiyak",
+   "level": 22,
+   "hide_on_did": false,
+   "weekly_xp": 852654
+  },
+  {
+   "member_id": "lif006",
+   "nickname": "벤치프레스백키로도전",
+   "character_type_id": "18_rilla",
+   "level": 15,
+   "hide_on_did": false,
+   "weekly_xp": 841543
+  },
+  {
+   "member_id": "lif007",
+   "nickname": "아침공복유산소매일해요",
+   "character_type_id": "26_capy",
+   "level": 9,
+   "hide_on_did": false,
+   "weekly_xp": 830432
+  },
+  {
+   "member_id": "lif008",
+   "nickname": "스쿼트백개챌린지하는중",
+   "character_type_id": "21_youngcha",
+   "level": 52,
+   "hide_on_did": false,
+   "weekly_xp": 820321
+  },
+  {
+   "member_id": "lif009",
+   "nickname": "계단으로만다니는사람",
+   "character_type_id": "19_shadow",
+   "level": 63,
+   "hide_on_did": false,
+   "weekly_xp": 810210
+  }
+ ],
+ "today": {
+  "total": 1284,
+  "members": [
+   {
+    "member_id": "lifH01",
+    "nickname": "숨김설정회원",
+    "character_type_id": "23_imu",
+    "level": 70,
+    "hide_on_did": true
+   },
+   {
+    "member_id": "lif000",
+    "nickname": "새벽다섯시스쿼트하는직장인",
+    "character_type_id": "22_saetbyeol",
+    "level": 41,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif001",
+    "nickname": "데드리프트백키로가즈아",
+    "character_type_id": "20_ttukbi",
+    "level": 33,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif002",
+    "nickname": "오늘도하체하는필라테스",
+    "character_type_id": "24_koa",
+    "level": 27,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif003",
+    "nickname": "퇴근하고바로헬스장가요",
+    "character_type_id": "02_mungchi",
+    "level": 18,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif004",
+    "nickname": "주말에도쉬지않는런너",
+    "character_type_id": "27_bamtol",
+    "level": 4,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif005",
+    "nickname": "근손실이무서운헬린이",
+    "character_type_id": "25_ppiyak",
+    "level": 22,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif006",
+    "nickname": "벤치프레스백키로도전",
+    "character_type_id": "18_rilla",
+    "level": 15,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif007",
+    "nickname": "아침공복유산소매일해요",
+    "character_type_id": "26_capy",
+    "level": 9,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif008",
+    "nickname": "스쿼트백개챌린지하는중",
+    "character_type_id": "21_youngcha",
+    "level": 52,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif009",
+    "nickname": "계단으로만다니는사람",
+    "character_type_id": "19_shadow",
+    "level": 63,
+    "hide_on_did": false
+   },
+   {
+    "member_id": "lif010",
+    "nickname": "한글열두자닉네임테스트중",
+    "character_type_id": "16_dot",
+    "level": 24,
+    "hide_on_did": false
+   }
+  ]
+ },
+ "generated_at": "FAKE-DATA",
+ "national_url": "data/national_stress.json"
+}

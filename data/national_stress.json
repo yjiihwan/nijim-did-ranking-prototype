@@ -1,0 +1,104 @@
+{
+ "weekly": [
+  {
+   "member_id": "nats000",
+   "nickname": "새벽다섯시스쿼트하는직장인",
+   "character_type_id": "23_imu",
+   "level": 88,
+   "hide_on_did": false,
+   "weekly_xp": 988450,
+   "center_name": "리프트랩 부산해운대센텀시티점"
+  },
+  {
+   "member_id": "nats001",
+   "nickname": "데드리프트백키로가즈아",
+   "character_type_id": "16_dot",
+   "level": 74,
+   "hide_on_did": false,
+   "weekly_xp": 919870,
+   "center_name": "바디웍스 서울강남역삼점"
+  },
+  {
+   "member_id": "natH01",
+   "nickname": "전국숨김회원",
+   "character_type_id": "16_dot",
+   "level": 50,
+   "hide_on_did": true,
+   "weekly_xp": 919869,
+   "center_name": "핏앤코 성수점"
+  },
+  {
+   "member_id": "nats002",
+   "nickname": "오늘도하체하는필라테스",
+   "character_type_id": "21_youngcha",
+   "level": 66,
+   "hide_on_did": false,
+   "weekly_xp": 908300,
+   "center_name": "짐스토리 인천부평역사거리점"
+  },
+  {
+   "member_id": "nats003",
+   "nickname": "퇴근하고바로헬스장가요",
+   "character_type_id": "24_koa",
+   "level": 59,
+   "hide_on_did": false,
+   "weekly_xp": 874990,
+   "center_name": "무브짐 대전둔산타임월드점"
+  },
+  {
+   "member_id": "nats004",
+   "nickname": "주말에도쉬지않는런너",
+   "character_type_id": "26_capy",
+   "level": 47,
+   "hide_on_did": false,
+   "weekly_xp": 863760,
+   "center_name": "온핏 수원영통중심상가점"
+  },
+  {
+   "member_id": "nats005",
+   "nickname": "근손실이무서운헬린이",
+   "character_type_id": "22_saetbyeol",
+   "level": 45,
+   "hide_on_did": false,
+   "weekly_xp": 852654,
+   "center_name": "코어랩 광주상무지구점"
+  },
+  {
+   "member_id": "nats006",
+   "nickname": "벤치프레스백키로도전",
+   "character_type_id": "25_ppiyak",
+   "level": 38,
+   "hide_on_did": false,
+   "weekly_xp": 841543,
+   "center_name": "핏앤코 서울성수카페거리점"
+  },
+  {
+   "member_id": "nats007",
+   "nickname": "아침공복유산소매일해요",
+   "character_type_id": "20_ttukbi",
+   "level": 31,
+   "hide_on_did": false,
+   "weekly_xp": 830432,
+   "center_name": "짐스토리 고양일산호수공원점"
+  },
+  {
+   "member_id": "nats008",
+   "nickname": "스쿼트백개챌린지하는중",
+   "character_type_id": "27_bamtol",
+   "level": 29,
+   "hide_on_did": false,
+   "weekly_xp": 820321,
+   "center_name": "바디웍스 서울마포공덕역점"
+  },
+  {
+   "member_id": "nats009",
+   "nickname": "계단으로만다니는사람",
+   "character_type_id": "18_rilla",
+   "level": 24,
+   "hide_on_did": false,
+   "weekly_xp": 810210,
+   "center_name": "온핏 경기화성동탄2신도시점"
+  }
+ ],
+ "generated_at": "FAKE-DATA"
+}
